@@ -98,6 +98,10 @@ module HQMF2JS
         end
       end
 
+      def temporal_reference_range_set(ref)
+        (bounds.respond_to?(:low) && bounds.respond_to?(:high)) && (!bounds.low.nil? && !bounds.high.nil?) 
+      end
+
       def js_for_bounds(bounds)
         if (bounds.respond_to?(:low) && bounds.respond_to?(:high))
           type = bounds.type || 'IVL_PQ'
