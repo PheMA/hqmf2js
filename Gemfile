@@ -9,7 +9,7 @@ end
 
 gem 'hquery-patient-api', :git => 'https://github.com/projecttacoma/patientapi.git', :branch => 'master'
 #gem 'hquery-patient-api', :path => '../patientapi'
-gem 'health-data-standards', :git => 'https://github.com/projectcypress/health-data-standards.git', :branch => 'master'
+gem 'health-data-standards', :git => 'https://github.com/phema/health-data-standards.git', :branch => 'phema'
 #gem 'health-data-standards', :path => '../health-data-standards'
 
 gem 'nokogiri'
